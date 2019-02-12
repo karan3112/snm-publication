@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title  -->
-    <title>Login</title>
+    <title>Sant Nirankari Mission - Publication</title>
 
     <!-- Favicon  -->
     <link rel="icon" href="img/core-img/favicon.png">
@@ -28,28 +28,10 @@
             <nav class="classy-navbar" id="essenceNav">
                 <!-- Logo -->
                 <a class="nav-brand" href="index.html"><img src="img/core-img/logo.jpg" alt="Sant Nirankari Mission - Publication"></a>
-                <!-- Navbar Toggler -->
-                <div class="classy-navbar-toggler">
-                    <span class="navbarToggler"><span></span><span></span><span></span></span>
-                </div>
-                <!-- Menu -->
-                <div class="classy-menu">
-                    <!-- close btn -->
-                    <div class="classycloseIcon">
-                        <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                    </div>
-                </div>
             </nav>
 
             <!-- Header Meta Data -->
             <div class="header-meta d-flex clearfix justify-content-end">
-                <!-- Search Area -->
-                <div class="search-area">
-                    <form action="#" method="post">
-                        <input type="search" name="search" id="headerSearch" placeholder="Type for search">
-                        <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-                    </form>
-                </div>
                 <div class="lang-info">
                     <form action="#" method="get">
                         <select name="select" id="language">
@@ -61,11 +43,18 @@
                     </form>
                 </div>
                 <div class="user-login-info">
-                    <a href="#">Login/ SignUp</a>
+                    <a href="#">
+                        <div class="d-none d-sm-block">Login/ SignUp</div>
+                        <img src="img/core-img/user.svg" alt="" class="d-inline-block d-sm-none">
+                    </a>
                 </div>
                 <!-- Cart Area -->
                 <div class="cart-area">
-                    <a href="#" id="essenceCartBtn">Cart <span>3</span></a>
+                    <a href="#" id="essenceCartBtn">
+                        <div class="d-none d-sm-block">Cart</div>
+                        <img src="img/core-img/bag.svg" alt="" class="d-inline-block d-sm-none">
+                        <span>3</span>
+                    </a>
                 </div>
             </div>
 
@@ -160,8 +149,7 @@
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <div class="page-title text-center">
-                        <h2>Publication Portal</h2>
-                        <div>Manage your monthly magazine subscriptions here</div>
+                        <h2>Login / SignUp</h2>
                     </div>
                 </div>
             </div>
@@ -170,54 +158,56 @@
     <!-- ##### Breadcumb Area End ##### -->
      
     <!-- ##### Login Area Start ##### -->
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-6 col-lg-6">
-                <div class="card border-dark mb-3 mt-3">
-                    <div class="card-body">
-                      <h5 class="card-title">Login</h5>  
-                      <form>
-                            <div class="form-group">
-                              <label for="inputUser">Email address</label>
-                              <input type="email" name="userName" class="form-control" id="inputUser" aria-describedby="emailHelp" placeholder="Enter email">
-                              </div>
-                            <div class="form-group">
-                              <label for="inputUsrPassword">Password</label>
-                              <input type="password" name="userPassword" class="form-control" id="inputUsrPassword" placeholder="Password">
-                            </div>
-                            <button type="submit" name="submit" class="btn btn-primary">Submit</button>
-                        </form>
+    <div class="checkout_details_area section-padding-80">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 pr-md-5 pb-3 pb-sm-0">
+                    <div class="card border-0">
+                        <div class="card-body p-0">
+                        <h4 class="card-title mb-4">Login</h5>  
+                        <form>
+                                <div class="form-group">
+                                <label for="inputUser">Email address</label>
+                                <input type="email" name="userName" class="form-control" id="inputUser" placeholder="Enter email">
+                                </div>
+                                <div class="form-group">
+                                <label for="inputUsrPassword">Password</label>
+                                <input type="password" name="userPassword" class="form-control" id="inputUsrPassword" placeholder="Password">
+                                </div>
+                                <button type="submit" class="btn essence-btn">Submit</button>
+                            </form>
+                        </div>
                     </div>
-                </div>
-            </div>  
-            <div class="col-12 col-md-6 col-lg-6">  
-                <div class="card border-dark mb-3 mt-3">
-                    <div class="card-body">
-                      <h5 class="card-title">SignUp</h5>  
-                      <form>
-                            <div class="form-group">
-                              <label for="inputNewUser">Name</label>
-                              <input type="text" name="newUser" class="form-control" id="inputNewUser" aria-describedby="emailHelp" placeholder="Enter Name">
-                            </div>
-                            <div class="form-group">
-                              <label for="inputNewMobileNo">Mobile Number</label>
-                              <input type="number" name="newMobile" class="form-control" id="inputMobile" aria-describedby="emailHelp" placeholder="Enter Mobile Number">
-                            </div>
-                            <div class="form-group">
-                              <label for="inputNewEmail">Email address</label>
-                              <input type="email" name="newEmail" class="form-control" id="inputNewEmail" aria-describedby="emailHelp" placeholder="Enter Email">
-                            </div>
-                            <div class="form-group">
-                              <label for="inputNewPassword">Password</label>
-                              <input type="password" name="newPassword" class="form-control" id="inputPassword" placeholder="Password">
-                            </div>
-                            <button type="submit" name="newSubmit" class="btn btn-primary">Submit</button>
-                        </form>
+                </div>  
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 or-widget pl-md-5 pt-3 pt-sm-0">  
+                    <div class="card border-0">
+                        <div class="card-body p-0">
+                        <h4 class="card-title mb-4">SignUp</h5>  
+                        <form>
+                                <div class="form-group">
+                                <label for="inputNewUser">Name</label>
+                                <input type="text" name="newUser" class="form-control" id="inputNewUser" placeholder="Enter Name">
+                                </div>
+                                <div class="form-group">
+                                <label for="inputNewMobileNo">Mobile number</label>
+                                <input type="number" name="newMobile" class="form-control" id="inputMobile" placeholder="Enter Mobile number">
+                                </div>
+                                <div class="form-group">
+                                <label for="inputNewEmail">Email address</label>
+                                <input type="email" name="newEmail" class="form-control" id="inputNewEmail" placeholder="Enter Email">
+                                </div>
+                                <div class="form-group">
+                                <label for="inputNewPassword">Password</label>
+                                <input type="password" name="newPassword" class="form-control" id="inputPassword" placeholder="Password">
+                                </div>
+                                <button type="submit" class="btn essence-btn">Register</button>
+                            </form>
+                        </div>
                     </div>
-                </div>
-            </div> 
-        </div>       
-    </div>    
+                </div> 
+            </div>       
+        </div>    
+    </div>
     <!-- ##### Login Area End ##### -->
     
 

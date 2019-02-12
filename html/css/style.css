@@ -30,6 +30,25 @@ a{
 .header_area .favourite-area a span, .header_area .user-login-info a span, .header_area .cart-area a span{
     right: 22px;
 }
+.or-widget{
+    position: relative;
+    border-left: 1px solid #dee2e6!important;
+}
+.or-widget:before{
+    content: 'OR';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -20px;
+    background: #fff;
+    border: 1px solid #dee2e6;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    z-index: 1;
+    border-radius: 50%;
+}
 
 @media only screen and (max-width: 500px) {
     .header_area .classy-navbar{
@@ -54,5 +73,14 @@ a{
     .section-padding-80{
         padding-top: 40px;
         padding-bottom: 40px;
+    }
+    .or-widget{
+        border-left: none;
+        border-top: 1px solid #dee2e6!important;
+    }
+    .or-widget:before{
+        top: -20px;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
