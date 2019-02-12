@@ -1,2 +1,2 @@
 # snm-publication
-Sant Nirankari Misison - Publication
+Sant Nirankari Mission - Publication
