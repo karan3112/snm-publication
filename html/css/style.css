@@ -1,0 +1,14 @@
+.classy-nav-container a{
+    font-size: 17px !important;
+}
+.lang-info{
+    border-left: 1px solid #ebebeb;
+    height: 100%;
+}
+.lang-info form{
+    margin-top: 20px; 
+}
+.lang-info form .nice-select{
+    border:none;
+    font-size: 17px;
+}
