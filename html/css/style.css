@@ -18,3 +18,41 @@ a{
 .list-group-item.active a{
     color: #fff;
 }
+#language{
+    max-height: 150px;
+    overflow: auto;
+}
+.shop_sidebar_area a{
+    font-size: 16px !important;
+    color: #333;
+}
+
+.header_area .favourite-area a span, .header_area .user-login-info a span, .header_area .cart-area a span{
+    right: 22px;
+}
+
+@media only screen and (max-width: 500px) {
+    .header_area .classy-navbar{
+        height: auto;
+    }
+    .lang-info form{
+        margin-top: 0;
+    }
+    .header_area .header-meta{
+        height: 43px;
+    }
+    .header_area .favourite-area a, .header_area .user-login-info a, .header_area .cart-area a{
+        min-width: auto;
+    }
+    .header_area .favourite-area a span, .header_area .user-login-info a span, .header_area .cart-area a span{
+        top: -12px;
+        right: 10px;
+    }
+    body {
+        margin-top: 122px;
+    }
+    .section-padding-80{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
